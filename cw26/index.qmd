@@ -25,20 +25,22 @@ title: CI Usage Badge
 
 # What's CI Usage?
 
-## The problem
-
-Students use the big shared computer too much.
-
-Some students use it more than others and this is not good to the other students, because then they cannot use the big shared computer when they need it.
-
 https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=7
 https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=20
 
+
+## The problem
+
+People use the big shared computer too much.
+
+Some people use it more than others and this is not good to the other people, because then they cannot use the big shared computer when they need it.
+
+
 ## Solution
 
-We have told a smaller computer to check how much each group of students is using the big shared computer and draw a picture to make it extra clear.
+We have told a smaller computer to check how much each person is using the big shared computer and draw a picture to make it extra clear.
 
-This will help the students know that they are using the big shared computer too much.
+This will help people know that they are using the big shared computer too much.
 
 ## What's available
 
@@ -46,7 +48,7 @@ Some have done something similar: [green-ci](https://cambridge-iccs.github.io/gr
 
 # What we've used?
 
-We talk with the computers with snakes and pirates, but no robots!
+We talk with the computers with snakes, pirates, mermaids, but no robots!
 
 # Demo
 
@@ -55,6 +57,14 @@ We talk with the computers with snakes and pirates, but no robots!
 <!-- add asset of bubbles graph in assets -->
 
 # Who did what?
+
+- Duncan: master of snakes
+- Paddy: master of cat with many legs
+- Christine and Jyoti: Our favourite pirates
+- Sam: friend of the mermaids
+- Chris: drinks the energy
+- Jeremy: chief writer
+- David: social butterfly
 
 # Future
 
