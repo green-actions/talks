@@ -1,0 +1,48 @@
+---
+project:
+  type: website
+
+execute:
+  cache: true
+
+format:
+  html:
+    theme: cyborg
+  revealjs:
+    auto-play-media: true
+    auto-stretch: false
+    callout-appearance: simple
+    code-copy: true
+    filters:
+      - _filters/slugify.lua
+    footer: "{{< meta title >}}"
+    hash-type: number
+    history: false
+    include-after-body: _assets/html/hide-title-slide.html
+    incremental: true
+    link-external-filter: ^https:\/\/green-actions\.github\.io
+    link-external-icon: true
+    logo: https://avatars.githubusercontent.com/u/280653781?v=4
+    mermaid:
+      theme: dark
+    menu:
+      hideMissingTitles: true
+      useTextContentForMissingTitles: false
+    mobile-view-distance: 10
+    slide-number: c
+    theme:
+      - dracula
+      - _assets/css/custom.scss
+    title-slide-attributes:
+      data-footer: false
+    transition: fade
+    view-distance: 10
+
+website:
+  favicon: _assets/images/favicon.ico
+  navbar:
+    tools:
+      - icon: github
+        href: https://github.com/green-actions/talks
+  site-url: https://green-actions.github.io/talks
+  title: Green Actions Talks

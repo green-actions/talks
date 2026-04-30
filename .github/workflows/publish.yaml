@@ -1,0 +1,20 @@
+---
+name: Quarto Publish
+
+on:
+  push:
+    branches:
+      - main
+      - renovate/**
+  pull_request:
+
+jobs:
+  build-and-deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-slim
+    steps:
+      # yamllint disable-line rule:line-length
+      - uses: paddyroddy/.github/actions/github-pages/quarto@0a54f965cd2ff530f3313bbbaf384cf54bbb7374 # v0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

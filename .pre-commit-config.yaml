@@ -1,0 +1,11 @@
+---
+exclude: |-
+  (?x)^(
+    _extensions\/.*
+  )$
+repos:
+  - repo: https://github.com/paddyroddy/.github
+    rev: v0.394.0
+    hooks:
+      - id: general-hooks
+      - id: lua-hooks
