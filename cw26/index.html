@@ -224,9 +224,114 @@ Samuel Avis
 <h2>The problem</h2>
 <p>Students use the big shared computer too much.</p>
 <p>Some students use it more than others and this is not good to the other students, because then they cannot use the big shared computer when they need it.</p>
+<iframe data-external="1" src="https://www.youtube.com/embed/kscfDFtImbM?si=VmI6N0Yog73ckmsY?start=7" title="Electricity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe data-external="1" src="https://www.youtube.com/embed/kscfDFtImbM?si=VmI6N0Yog73ckmsY?start=20" title="Electricity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section class="slide level2">
+<h2>The problem</h2>
+<p>People use the big shared computer too much.</p>
+<p>Some people use it more than others and this is not good to the other people, because then they cannot use the big shared computer when they need it.</p>
+</section>
+<section class="slide level2">
+<h2>Solution</h2>
+<p>We have told a smaller computer to check how much each person is using the big shared computer and draw a picture to make it extra clear.</p>
+<p>This will help people know that they are using the big shared computer too much.</p>
+</section>
+<section class="slide level2">
+<h2>What is available</h2>
+<p>Some have done something similar: <a href="https://cambridge-iccs.github.io/green-ci/">green-ci</a></p>
 </section></section>
+<section class="title-slide slide level1 center">
+<h1>What we have used</h1>
+<p>We talk with the computers with snakes, pirates, mermaids, but no robots!</p>
+</section>
+
+<section class="title-slide slide level1 center">
+<h1>Demo</h1>
+<!-- embed website -->
+<!-- add asset of bubbles graph in assets -->
+</section>
+
+<section class="title-slide slide level1 center">
+<h1>Who did what?</h1>
+<ul>
+<li class="fragment">Duncan: master of snakes</li>
+<li class="fragment">Paddy: master of cat with many legs</li>
+<li class="fragment">Christine and Jyoti: Our favourite pirates</li>
+<li class="fragment">Sam: friend of the mermaids</li>
+<li class="fragment">Chris: drinks the energy</li>
+<li class="fragment">Jeremy: chief writer</li>
+<li class="fragment">David: social butterfly</li>
+</ul>
+</section>
+
+<section class="title-slide slide level1 center">
+<h1>Future</h1>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+
+    subgraph Get[Retrive workflow data]
+        subgraph Time[Duration data]
+            Time_Pr[Private Repos]
+            Time_Pu[Public Repos]
+        end
+        Util[Utilisation data]
+        Energy[Energy / CO2 Usage]
+        Time --&gt; Util --&gt; Energy
+    end
+
+    Output[Output data]
+    Get --&gt; Output
+
+    subgraph Dash[Data dashboard]
+
+        Dash_read[Read in data]
+        Dash_plot[Duration bubbleplot]
+        Dash_filter[Filter by branch / workflow]
+        Dash_energy[Visualise CPU / GPU / Energy]
+
+        Dash_read --&gt; Dash_plot --&gt; Dash_filter
+        Dash_plot --&gt; Dash_energy
+    end
+
+    Website
+
+    Store[Storing data]
+
+    Badge[Repo badge]
+
+    Bot[Automated PR message]
+
+    Output --&gt; Dash_read
+    Output --&gt; Store
+    Energy --&gt;Dash_energy
+
+    Dash --&gt; Website
+    Store --&gt; Badge
+    Store --&gt; Bot
+
+    classDef done stroke:orange
+    class Get,Output,Time,Time_Pr,Dash,Dash_read,Dash_plot,Website done
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+
+
+</section>
     </div>
-  </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://avatars.githubusercontent.com/u/280653781?v=4" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>CI Usage Badge</p>
+</div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="../site_libs/revealjs/dist/reveal.js"></script>
