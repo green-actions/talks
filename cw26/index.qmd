@@ -22,3 +22,38 @@ institute:
 subtitle: Collaborations Workshop 2026
 title: CI Usage Badge
 ---
+
+# What's CI Usage?
+
+## The problem
+
+Students use the big shared computer too much.
+
+Some students use it more than others and this is not good to the other students, because then they cannot use the big shared computer when they need it.
+
+https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=7
+https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=20
+
+## Solution
+
+We have told a smaller computer to check how much each group of students is using the big shared computer and draw a picture to make it extra clear.
+
+This will help the students know that they are using the big shared computer too much.
+
+## What's available
+
+Some have done something similar: [green-ci](https://cambridge-iccs.github.io/green-ci/)
+
+# What we've used?
+
+We talk with the computers with snakes and pirates, but no robots!
+
+# Demo
+
+<!-- embed website -->
+
+# Who did what?
+
+# Future
+
+<!-- include diagram from : https://github.com/green-actions/green-managing/issues/8#issuecomment-4352890945 -->
