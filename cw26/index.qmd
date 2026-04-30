@@ -1,0 +1,24 @@
+---
+author:
+ - Christian Gutschow
+ - Christine Stawitz
+ - David Pérez Suárez
+ - Duncan Leggat
+ - Jeremy Stein
+ - Jyoti Bhogal
+ - Patrick J. Roddy
+ - Samuel Avis
+date: 2026-04-30
+format: revealjs
+institute:
+ - Advanced Research Computing, UCL
+ - Advanced Research Computing, UoB
+ - Advanced Research Computing, UCL
+ - Advanced Research Computing, UCL
+ - Advanced Research Computing, UCL
+ - RSE Asia Association
+ - Advanced Research Computing, UCL
+ - ICCS, University of Cambridge
+subtitle: Collaborations Workshop 2026
+title: CI Usage Badge
+---
