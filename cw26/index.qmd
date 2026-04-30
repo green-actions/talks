@@ -33,8 +33,8 @@ Some students use it more than others and this is not good to the other
 students, because then they cannot use the big shared computer when they need
 it.
 
-https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=7
-https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=20
+{{ video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=7 }}
+{{ video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=20 }}
 
 ## Solution
 
