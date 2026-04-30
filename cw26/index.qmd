@@ -1,24 +1,10 @@
 ---
-author:
-  - Christian Gutschow
-  - Christine Stawitz
-  - David Pérez Suárez
-  - Duncan Leggat
-  - Jeremy Stein
-  - Jyoti Bhogal
-  - Patrick J. Roddy
-  - Samuel Avis
+author: |-
+  C. Gutschow, C. Stawitz, D. Pérez Suárez, D. Leggat,
+  J. Stein, J. Bhogal, P. J. Roddy, S. Avis
 date: 2026-04-30
 format: revealjs
-institute:
-  - Advanced Research Computing, UCL
-  - Advanced Research Computing, UoB
-  - Advanced Research Computing, UCL
-  - Advanced Research Computing, UCL
-  - Advanced Research Computing, UCL
-  - RSE Asia Association
-  - Advanced Research Computing, UCL
-  - ICCS, University of Cambridge
+institute: ARC UCL, ARC UoB, RSE Asia Association, ICCS Cambridge
 subtitle: Collaborations Workshop 2026
 title: CI Usage Badge
 ---
@@ -84,7 +70,7 @@ We talk with the computers with snakes, pirates, mermaids, but no robots!
 %%| fig-align: center
 flowchart TD
 
-    subgraph Get[Retrive workflow data]
+    subgraph Get[Retrieve workflow data]
         subgraph Time[Duration data]
             Time_Pr[Private Repos]
             Time_Pu[Public Repos]
