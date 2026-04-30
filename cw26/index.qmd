@@ -43,16 +43,15 @@ it.
 
 People use the big shared computer too much.
 
-Some people use it more than others and this is not good to the other people, because then they cannot use the big shared computer when they need it.
-
+Some people use it more than others and this is not good to the other people,
+because then they cannot use the big shared computer when they need it.
 
 ## Solution
 
-We have told a smaller computer to check how much each person is using
-the big shared computer and draw a picture to make it extra clear.
+We have told a smaller computer to check how much each person is using the big
+shared computer and draw a picture to make it extra clear.
 
-This will help people know that they are using the big shared computer
-too much.
+This will help people know that they are using the big shared computer too much.
 
 ## What is available
 
