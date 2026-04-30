@@ -20,7 +20,7 @@ institute:
   - Advanced Research Computing, UCL
   - ICCS, University of Cambridge
 subtitle: Collaborations Workshop 2026
-title: CUBIC Badge – Continuous Usage & Build Integration Certificate
+title: Continuous Usage & Build Integration Certificate
 ---
 
 # What is CI Usage
