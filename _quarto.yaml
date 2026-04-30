@@ -31,7 +31,7 @@ format:
     mobile-view-distance: 10
     slide-number: c
     theme:
-      - dracula
+      - beige
       - _assets/css/custom.scss
     title-slide-attributes:
       data-footer: false
