@@ -1,24 +1,24 @@
 ---
 author:
- - Christian Gutschow
- - Christine Stawitz
- - David Pérez Suárez
- - Duncan Leggat
- - Jeremy Stein
- - Jyoti Bhogal
- - Patrick J. Roddy
- - Samuel Avis
+  - Christian Gutschow
+  - Christine Stawitz
+  - David Pérez Suárez
+  - Duncan Leggat
+  - Jeremy Stein
+  - Jyoti Bhogal
+  - Patrick J. Roddy
+  - Samuel Avis
 date: 2026-04-30
 format: revealjs
 institute:
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UoB
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UCL
- - RSE Asia Association
- - Advanced Research Computing, UCL
- - ICCS, University of Cambridge
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UoB
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UCL
+  - RSE Asia Association
+  - Advanced Research Computing, UCL
+  - ICCS, University of Cambridge
 subtitle: Collaborations Workshop 2026
 title: CI Usage Badge
 ---
@@ -29,20 +29,25 @@ title: CI Usage Badge
 
 Students use the big shared computer too much.
 
-Some students use it more than others and this is not good to the other students, because then they cannot use the big shared computer when they need it.
+Some students use it more than others and this is not good to the other
+students, because then they cannot use the big shared computer when they need
+it.
 
 https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=7
 https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY&t=20
 
 ## Solution
 
-We have told a smaller computer to check how much each group of students is using the big shared computer and draw a picture to make it extra clear.
+We have told a smaller computer to check how much each group of students is
+using the big shared computer and draw a picture to make it extra clear.
 
-This will help the students know that they are using the big shared computer too much.
+This will help the students know that they are using the big shared computer too
+much.
 
 ## What's available
 
-Some have done something similar: [green-ci](https://cambridge-iccs.github.io/green-ci/)
+Some have done something similar:
+[green-ci](https://cambridge-iccs.github.io/green-ci/)
 
 # What we've used?
 
