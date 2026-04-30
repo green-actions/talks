@@ -23,7 +23,7 @@ subtitle: Collaborations Workshop 2026
 title: CI Usage Badge
 ---
 
-# What's CI Usage?
+# What is CI Usage
 
 ## The problem
 
@@ -44,12 +44,12 @@ using the big shared computer and draw a picture to make it extra clear.
 This will help the students know that they are using the big shared computer too
 much.
 
-## What's available
+## What is available
 
 Some have done something similar:
 [green-ci](https://cambridge-iccs.github.io/green-ci/)
 
-# What we've used?
+# What we have used
 
 We talk with the computers with snakes and pirates, but no robots!
 
@@ -61,4 +61,50 @@ We talk with the computers with snakes and pirates, but no robots!
 
 # Future
 
-<!-- include diagram from : https://github.com/green-actions/green-managing/issues/8#issuecomment-4352890945 -->
+```{mermaid}
+%%| fig-align: center
+flowchart TD
+
+    subgraph Get[Retrive workflow data]
+        subgraph Time[Duration data]
+            Time_Pr[Private Repos]
+            Time_Pu[Public Repos]
+        end
+        Util[Utilisation data]
+        Energy[Energy / CO2 Usage]
+        Time --> Util --> Energy
+    end
+
+    Output[Output data]
+    Get --> Output
+
+    subgraph Dash[Data dashboard]
+
+        Dash_read[Read in data]
+        Dash_plot[Duration bubbleplot]
+        Dash_filter[Filter by branch / workflow]
+        Dash_energy[Visualise CPU / GPU / Energy]
+
+        Dash_read --> Dash_plot --> Dash_filter
+        Dash_plot --> Dash_energy
+    end
+
+    Website
+
+    Store[Storing data]
+
+    Badge[Repo badge]
+
+    Bot[Automated PR message]
+
+    Output --> Dash_read
+    Output --> Store
+    Energy -->Dash_energy
+
+    Dash --> Website
+    Store --> Badge
+    Store --> Bot
+
+    classDef done stroke:orange
+    class Get,Output,Time,Time_Pr,Dash,Dash_read,Dash_plot,Website done
+```
