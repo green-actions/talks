@@ -52,6 +52,8 @@ We talk with the computers with snakes and pirates, but no robots!
 
 <!-- embed website -->
 
+<!-- add asset of bubbles graph in assets -->
+
 # Who did what?
 
 # Future
