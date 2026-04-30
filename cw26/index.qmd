@@ -34,15 +34,10 @@ students, because then they cannot use the big shared computer when they need
 it.
 
 {{< video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY start = "7" title =
-"Electricity"
-
-> }}
+"Electricity" >}}
 
 {{< video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY start = "20" title =
-"Electricity"
-
-> }}
-
+"Electricity" >}}
 
 ## The problem
 
