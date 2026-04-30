@@ -24,7 +24,7 @@ format:
     link-external-icon: true
     logo: https://avatars.githubusercontent.com/u/280653781?v=4
     mermaid:
-      theme: dark
+      theme: forest
     menu:
       hideMissingTitles: true
       useTextContentForMissingTitles: false
