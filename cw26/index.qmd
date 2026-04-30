@@ -20,7 +20,7 @@ institute:
   - Advanced Research Computing, UCL
   - ICCS, University of Cambridge
 subtitle: Collaborations Workshop 2026
-title: Continuous Usage & Build Integration Certificate
+title: CI Usage Badge
 ---
 
 # What is CI Usage
