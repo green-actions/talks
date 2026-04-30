@@ -1,24 +1,135 @@
 ---
 author:
- - Christian Gutschow
- - Christine Stawitz
- - David Pérez Suárez
- - Duncan Leggat
- - Jeremy Stein
- - Jyoti Bhogal
- - Patrick J. Roddy
- - Samuel Avis
+  - Christian Gutschow
+  - Christine Stawitz
+  - David Pérez Suárez
+  - Duncan Leggat
+  - Jeremy Stein
+  - Jyoti Bhogal
+  - Patrick J. Roddy
+  - Samuel Avis
 date: 2026-04-30
 format: revealjs
 institute:
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UoB
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UCL
- - Advanced Research Computing, UCL
- - RSE Asia Association
- - Advanced Research Computing, UCL
- - ICCS, University of Cambridge
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UoB
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UCL
+  - Advanced Research Computing, UCL
+  - RSE Asia Association
+  - Advanced Research Computing, UCL
+  - ICCS, University of Cambridge
 subtitle: Collaborations Workshop 2026
 title: CI Usage Badge
 ---
+
+# What is CI Usage
+
+## The problem
+
+Students use the big shared computer too much.
+
+Some students use it more than others and this is not good to the other
+students, because then they cannot use the big shared computer when they need
+it.
+
+{{< video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY start = "7" title =
+"Electricity"
+
+> }}
+
+{{< video https://youtu.be/kscfDFtImbM?si=VmI6N0Yog73ckmsY start = "20" title =
+"Electricity"
+
+> }}
+
+
+## The problem
+
+People use the big shared computer too much.
+
+Some people use it more than others and this is not good to the other people, because then they cannot use the big shared computer when they need it.
+
+
+## Solution
+
+We have told a smaller computer to check how much each person is using
+the big shared computer and draw a picture to make it extra clear.
+
+This will help people know that they are using the big shared computer
+too much.
+
+## What is available
+
+Some have done something similar:
+[green-ci](https://cambridge-iccs.github.io/green-ci/)
+
+# What we have used
+
+We talk with the computers with snakes, pirates, mermaids, but no robots!
+
+# Demo
+
+<!-- embed website -->
+
+<!-- add asset of bubbles graph in assets -->
+
+# Who did what?
+
+- Duncan: master of snakes
+- Paddy: master of cat with many legs
+- Christine and Jyoti: Our favourite pirates
+- Sam: friend of the mermaids
+- Chris: drinks the energy
+- Jeremy: chief writer
+- David: social butterfly
+
+# Future
+
+```{mermaid}
+%%| fig-align: center
+flowchart TD
+
+    subgraph Get[Retrive workflow data]
+        subgraph Time[Duration data]
+            Time_Pr[Private Repos]
+            Time_Pu[Public Repos]
+        end
+        Util[Utilisation data]
+        Energy[Energy / CO2 Usage]
+        Time --> Util --> Energy
+    end
+
+    Output[Output data]
+    Get --> Output
+
+    subgraph Dash[Data dashboard]
+
+        Dash_read[Read in data]
+        Dash_plot[Duration bubbleplot]
+        Dash_filter[Filter by branch / workflow]
+        Dash_energy[Visualise CPU / GPU / Energy]
+
+        Dash_read --> Dash_plot --> Dash_filter
+        Dash_plot --> Dash_energy
+    end
+
+    Website
+
+    Store[Storing data]
+
+    Badge[Repo badge]
+
+    Bot[Automated PR message]
+
+    Output --> Dash_read
+    Output --> Store
+    Energy -->Dash_energy
+
+    Dash --> Website
+    Store --> Badge
+    Store --> Bot
+
+    classDef done stroke:orange
+    class Get,Output,Time,Time_Pr,Dash,Dash_read,Dash_plot,Website done
+```
